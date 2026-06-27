@@ -204,7 +204,7 @@ body{background:#fff;padding:0}
 </head>
 <body>
 <!-- Music Toggle -->
-<audio id="bgMusic" loop preload="auto"><source src="flute.mp3" type="audio/mpeg"></audio>
+<audio id="bgMusic" loop preload="none"><source src="flute.mp3" type="audio/mpeg"></audio>
 <div class="music-toggle" id="musicBtn" onclick="toggleMusic()" title="Play/Pause Music">
 <svg id="musicIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 <path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>
@@ -307,18 +307,18 @@ body{background:#fff;padding:0}
 <div class="gallery-wrap">
 <div class="gallery-arrow left" onclick="document.getElementById('gallerySlider').scrollBy({left:-200,behavior:'smooth'})"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round"><path d="M15 18l-6-6 6-6"/></svg></div>
 <div class="gallery" id="gallerySlider">
-<div class="gallery-img"><img src="slide1.jpg" alt=""></div>
-<div class="gallery-img"><img src="slide2.jpg" alt=""></div>
-<div class="gallery-img"><img src="slide3.jpg" alt=""></div>
-<div class="gallery-img"><img src="slide4.jpg" alt=""></div>
-<div class="gallery-img"><img src="slide5.jpg" alt=""></div>
-<div class="gallery-img"><img src="slide6.jpg" alt=""></div>
-<div class="gallery-img"><img src="slide7.jpg" alt=""></div>
-<div class="gallery-img"><img src="slide8.jpg" alt=""></div>
-<div class="gallery-img"><img src="slide9.jpg" alt=""></div>
-<div class="gallery-img"><img src="slide10.jpg" alt=""></div>
-<div class="gallery-img"><img src="slide11.jpg" alt=""></div>
-<div class="gallery-img"><img src="slide12.jpg" alt=""></div>
+<div class="gallery-img"><img src="slide1.jpg" alt="" loading="lazy"></div>
+<div class="gallery-img"><img src="slide2.jpg" alt="" loading="lazy"></div>
+<div class="gallery-img"><img src="slide3.jpg" alt="" loading="lazy"></div>
+<div class="gallery-img"><img src="slide4.jpg" alt="" loading="lazy"></div>
+<div class="gallery-img"><img src="slide5.jpg" alt="" loading="lazy"></div>
+<div class="gallery-img"><img src="slide6.jpg" alt="" loading="lazy"></div>
+<div class="gallery-img"><img src="slide7.jpg" alt="" loading="lazy"></div>
+<div class="gallery-img"><img src="slide8.jpg" alt="" loading="lazy"></div>
+<div class="gallery-img"><img src="slide9.jpg" alt="" loading="lazy"></div>
+<div class="gallery-img"><img src="slide10.jpg" alt="" loading="lazy"></div>
+<div class="gallery-img"><img src="slide11.jpg" alt="" loading="lazy"></div>
+<div class="gallery-img"><img src="slide12.jpg" alt="" loading="lazy"></div>
 </div>
 <div class="gallery-arrow right" onclick="document.getElementById('gallerySlider').scrollBy({left:200,behavior:'smooth'})"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg></div>
 </div>
